@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>inputs demo</title>
+</head>
+
+<body>
+  <h1>Input demo listi</h1> <br><br>
+  <form class="form-example" action="index.html" method="post">
+    <label for="name"> Name (4 to 8 characters):</label>
+    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+    <br><br>
+    <button class="favorite styled" type="button">Add to favorites</button> <br><br>
+    <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+    <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+    <input type="checkbox" name="vehicle3" value="Boat" checked> I have a boat<br>
+    <br><br>
+    <h1>Show a date and time control:</h1>
+    Birthday (date and time): <input type="datetime-local" name="bdaytime">
+    <input type="submit">
+  </form>
+</body>
+
+</html>
